@@ -1,0 +1,81 @@
+Warning: the running version of Bundler (2.1.2) is older than the version that created the lockfile (2.1.4). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.1.4`.
+The dependency tzinfo (~> 1.2) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency wdm (~> 0.1.1) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32`.
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.604 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2020-09-24 18:29:51] ERROR `/admin' not found.
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.1.1   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+/usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/commands/serve.rb:285:in `join': SIGTERM (SignalException)
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/commands/serve.rb:285:in `boot_or_detach'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/commands/serve.rb:220:in `start_up_webrick'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/commands/serve.rb:102:in `process'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/command.rb:91:in `block in process_with_graceful_fail'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/command.rb:91:in `each'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/command.rb:91:in `process_with_graceful_fail'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/lib/jekyll/commands/serve.rb:86:in `block (2 levels) in init_with_program'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `block in execute'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `each'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in `execute'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in `go'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in `program'
+	from /usr/local/rvm/gems/ruby-2.7.0/gems/jekyll-4.1.1/exe/jekyll:15:in `<top (required)>'
+	from /usr/local/rvm/gems/ruby-2.7.0/bin/jekyll:23:in `load'
+	from /usr/local/rvm/gems/ruby-2.7.0/bin/jekyll:23:in `<main>'
+	from /usr/local/rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `eval'
+	from /usr/local/rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `<main>'
+Warning: the running version of Bundler (2.1.2) is older than the version that created the lockfile (2.1.4). We suggest you to upgrade to the version that created the lockfile by running `gem install bundler:2.1.4`.
+The dependency tzinfo (~> 1.2) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32 java`.
+The dependency wdm (~> 0.1.1) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x64-mingw32, x86-mswin32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x64-mingw32 x86-mswin32`.
+Configuration file: /root/myblog/_config.yml
+            Source: /root/myblog
+       Destination: /root/myblog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.447 seconds.
+ Auto-regeneration: enabled for '/root/myblog'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2020-09-24 18:33:29] ERROR `/admin' not found.
+[2020-09-24 18:33:34] ERROR `/admin' not found.
+[2020-09-24 18:33:47] ERROR `/admin' not found.
+[2020-09-24 18:35:26] ERROR `/admin' not found.
+[2020-09-24 18:35:30] ERROR `/admin' not found.
+[2020-09-24 18:35:30] ERROR `/admin' not found.
+[2020-09-24 18:35:31] ERROR `/admin' not found.
+[2020-09-24 18:35:31] ERROR `/admin' not found.
+[2020-09-24 18:35:31] ERROR `/admin' not found.
+[2020-09-24 18:35:31] ERROR `/admin' not found.
+      Regenerating: 1 file(s) changed at 2020-09-25 16:08:12
+                    _posts/Shadowsock_部署.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.209359364 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2020-09-25 16:09:23
+                    _posts/2020-09-24-Shadowsock_部署.markdown
+                    _posts/Shadowsock_部署.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.201779038 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-09-25 16:11:03
+                    _posts/2020-09-24-Shadowsock_部署.markdown
+[31m             Error: YAML Exception reading /root/myblog/_posts/2020-09-24-Shadowsock_部署.markdown: (<unknown>): found unexpected end of stream while scanning a quoted scalar at line 3 column 9[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.134783815 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2020-09-25 16:11:11
+                    _posts/2020-09-24-Shadowsock_部署.markdown
+       Jekyll Feed: Generating feed for posts

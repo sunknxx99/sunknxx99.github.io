@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T16:43:58+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/09/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-24T16:36:58+08:00</published><updated>2020-09-24T16:36:58+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-25T16:11:11+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Shadowsock 部署配置</title><link href="http://localhost:4000/jekyll/update/2020/09/24/Shadowsock_%E9%83%A8%E7%BD%B2.html" rel="alternate" type="text/html" title="Shadowsock 部署配置" /><published>2020-09-24T16:36:58+08:00</published><updated>2020-09-24T16:36:58+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/24/Shadowsock_%E9%83%A8%E7%BD%B2</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/24/Shadowsock_%E9%83%A8%E7%BD%B2.html">&lt;h3 id=&quot;安装-shadowsock-服务&quot;&gt;安装 shadowsock 服务&lt;/h3&gt;
+
+&lt;p&gt;安装&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# 安装pip
+yum install python-pip
+
+# 使用pip安装shadowsocks
+pip install shadowsocks
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;配置Shdowsocks服务,并启动
+新建 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/shadowsocks.json&lt;/code&gt; 文件, 并写入以下内容&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+        &quot;server&quot;:&quot;0.0.0.0&quot;,
+        &quot;server_port&quot;:443,
+        &quot;local_address&quot;:&quot;127.0.0.1&quot;,
+        &quot;local_port&quot;:10800,
+        &quot;password&quot;:&quot;JiaHe123&quot;,
+        &quot;timeout&quot;:300,
+        &quot;method&quot;:&quot;aes-256-cfb&quot;,
+        &quot;fast_open&quot;:false,
+        &quot;workers&quot;:5
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;启动&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssserver -c /etc/shadowsocks.json -d start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;上网站 https://sourceforge.net/projects/shadowsocksgui/ 下载客户端&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">安装 shadowsock 服务 安装 # 安装pip yum install python-pip # 使用pip安装shadowsocks pip install shadowsocks 配置Shdowsocks服务,并启动 新建 /etc/shadowsocks.json 文件, 并写入以下内容 { &quot;server&quot;:&quot;0.0.0.0&quot;, &quot;server_port&quot;:443, &quot;local_address&quot;:&quot;127.0.0.1&quot;, &quot;local_port&quot;:10800, &quot;password&quot;:&quot;JiaHe123&quot;, &quot;timeout&quot;:300, &quot;method&quot;:&quot;aes-256-cfb&quot;, &quot;fast_open&quot;:false, &quot;workers&quot;:5 } 启动 ssserver -c /etc/shadowsocks.json -d start 上网站 https://sourceforge.net/projects/shadowsocksgui/ 下载客户端</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/09/24/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-24T16:36:58+08:00</published><updated>2020-09-24T16:36:58+08:00</updated><id>http://localhost:4000/jekyll/update/2020/09/24/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/24/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
